@@ -1,0 +1,18 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    text-align: center;
+}
+.container a {
+    background-color: rgb(52, 31, 170);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px 10px 25px; /* top, right, bottom, left*/
+    border-radius: 50px;
+}
+
+.container a:hover { /*A nomenclatura da alteração de estilo ao passar o cursor (hover) sobre um elemento em CSS é feita com o pseudoclass :hover.*/
+    background-color: rgb(42, 25, 136);
+}
