@@ -1,19 +1,21 @@
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
-header{
-    background-color: #af6b4c;
+header {
+    background-color: #0e0e91;
     padding: 15px;
     color: #fff; /*cor de fundo branco*/
+    text-align: center;
 }
 
-header h1{
+header h1 {
     margin-top: 0;
 }
 
-.btn{
+.btn {
     text-decoration: none;
     color: #fff;
     background-color: #8b8b8b;
@@ -22,37 +24,38 @@ header h1{
     text-transform: uppercase;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #4b4b4b;
 }
 
-.container{
+.container {
     padding: 16px;
     background-color: #f4f4f4;
 }
 
-section{
+section {
     background-color: #fff;
     padding: 16px;
     border-radius: 5px;
     margin: 16px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    }
-    .last{
-        margin-bottom: 70px;
-    }
+}
 
-    h2{
-        border-bottom: 2px solid #af6b4c;
-        padding-bottom: 8px;
-    }
+.last {
+    margin-bottom: 70px;
+}
 
-    footer{
-        background-color: #af6b4c;
-        padding: 5px;
-        text-align: center;
-        color: #fff;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
+h2 {
+    border-bottom: 2px solid #af6b4c;  /* solid é a linha*/
+    padding-bottom: 8px;
+}
+
+footer {
+    background-color: #af6b4c;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
