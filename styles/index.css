@@ -1,5 +1,6 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(rgb(66, 242, 255), blue) ;
 }
 
 .container{
@@ -11,8 +12,32 @@ body {
     text-decoration: none;
     padding: 10px 20px 10px 25px; /* top, right, bottom, left*/
     border-radius: 50px;
+    list-style-position: inside;
+    text-align: center;
+    display: inline-block; /* Isso ajuda a centralizar os itens da lista horizontalmente */
+    margin: 2px 0;
+}
+
+.skills a{
+    background-color: rgb(52, 31, 170);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px 10px 25px; /* top, right, bottom, left*/
+    border-radius: 50px;
+    list-style-position: inside;
+    text-align: left;
+    margin: 2px 0;
 }
 
 .container a:hover { /*A nomenclatura da alteração de estilo ao passar o cursor (hover) sobre um elemento em CSS é feita com o pseudoclass :hover.*/
     background-color: rgb(42, 25, 136);
+    font-size: 20px;
+}
+
+.container img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
